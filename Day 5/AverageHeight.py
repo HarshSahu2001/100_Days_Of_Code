@@ -8,7 +8,7 @@ for height in student_heights:
     Height_Sum += height
     Student_count +=1
 
-Average = (Height_Sum/count)
+Average = (Height_Sum/Student_count)
 print(int(round(Average, 0)))
 
 # 2nd method
