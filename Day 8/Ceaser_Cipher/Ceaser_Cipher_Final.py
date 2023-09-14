@@ -40,9 +40,10 @@ while should_continue == True:
     shift %= 26
 
   caesar(start_text=text, shift_amount=shift, cipher_direction=direction)
-  result = input("Type Yes if you want to go again, else Type No\n").lower()
-  if result == "yes":
+  restart = input("Type Yes if you want to go again, else Type No\n").lower()
+  if restart == "yes":
     should_continue = True
   else:
     should_continue = False
+    print("Okay GoodBye")
     
