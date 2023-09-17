@@ -13,13 +13,13 @@ def highest_bidder(bidding_records):
     if bid_amount > highest_bid:
       highest_bid = bid_amount
       winnner = bidder
-  print(f"Highest Bid is from is {highest_bid} from {bidder}")
+  print(f"Highest Bid is {highest_bid} from {bidder}")
   
 while bidding_finished == False:
   name = input("Enter Your Name: ")
   price = int(input("Enter The Price: $"))
   bids[name] = price
-  should_continue = input("Do You Want To Add More Bids? Say Yes or No?").lower()
+  should_continue = input("Do You Want To Add More Bids? Say Yes or No?" ).lower()
   if should_continue == "yes":
     clear()
   else:
