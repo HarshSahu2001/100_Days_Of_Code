@@ -11,7 +11,7 @@ for height in student_heights:
 Average = (Height_Sum/Student_count)
 print(int(round(Average, 0)))
 
-# 2nd method
+# 2nd method:
 # Total_Height = sum(student_heights)
 # students = len(student_heights)
 # Average = Total_Height/students
